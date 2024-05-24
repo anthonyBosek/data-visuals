@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(to bottom, #ffffff 0%, #4d4d4d 100%);
+}
+
+svg {
+  background: whitesmoke;
+  font-family: rubik;
+  box-shadow: black 0px 5px 35px 0px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  border-radius: 1%;
+}
+
+#y-label {
+  transform: rotate(270deg);
+}
+
+.cell:hover {
+  stroke: black;
+  stroke-width: 0.75px;
+}

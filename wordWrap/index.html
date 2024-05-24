@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Wrap</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+    <script src="../libs/d3/d3.js"></script>
+  </head>
+
+  <body>
+    <svg width="600" height="300">
+      <rect x="50" y="100" width="150" height="100"></rect>
+
+      <text x="200" y="150" width="150" text-anchor="middle" class="dotme">
+        This text goes on the left more text to test.
+      </text>
+
+      <rect x="250" y="100" width="100" height="100"></rect>
+      <!-- y is rect.y + rect.width /2 -->
+      <!-- x is rect.x + rect.width /2 -->
+      <text x="300" y="150" width="100" text-anchor="middle" class="wrapme">
+        And I'm in the middle test test another long sentence
+      </text>
+
+      <rect x="400" y="100" width="150" height="100"></rect>
+      <text x="400" y="150" width="150" text-anchor="start" class="dotme">
+        This text goes on the right
+      </text>
+    </svg>
+  </body>
+</html>

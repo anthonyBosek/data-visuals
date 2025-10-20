@@ -2,6 +2,7 @@
 
 This repository contains a collection of data visualizations created using D3.js. Each project showcases a different type of data visualization, demonstrating the power and flexibility of D3.
 
+<!-- 
 ## Table of Contents
 
 - [Installation](#installation)
@@ -30,3 +31,5 @@ This will start a local development server and open the project in your default 
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and submit a pull request. I'd love to see what you come up with!
+
+-->

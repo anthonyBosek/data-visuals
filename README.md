@@ -1,6 +1,8 @@
 # Data Visualizations with D3
 
-This repository contains a collection of data visualizations created using D3.js. Each project showcases a different type of data visualization, demonstrating the power and flexibility of D3.
+## D3 the hard way!
+
+This repository contains a collection of data visualizations created using D3. Each project showcases a different type of data visualization, demonstrating the power and flexibility of D3.
 
 <!-- 
 ## Table of Contents

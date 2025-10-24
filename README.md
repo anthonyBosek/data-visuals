@@ -1,4 +1,4 @@
-# Data Visualizations with D3
+# Data Visualizations with D3 - Data Driven Documents
 
 ## D3 the hard way!
 
